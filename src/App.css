@@ -1,36 +1,36 @@
 .App {
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 0.25rem;
-  padding-bottom: 25vh;
-  background-image: url("https://www.itl.cat/pics/b/29/290770_background-hd-wallpapers.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0.25rem;
+    padding-bottom: 25vh;
+    background-image: url("https://www.itl.cat/pics/b/29/290770_background-hd-wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .App_Column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.App_Column > .MuiFab-root,
+.App_Column>.MuiFab-root,
 .App__label {
-  margin-top: 10px;
-  font-size: 25px;
-  color: black;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 600px) {
-  .App {
-    padding: 0 10rem;
-    padding-bottom: 15vh;
-  }
-
-  .App_Column {
-    margin: 0 10px;
-  }
+    .App {
+        padding: 0 10rem;
+        padding-bottom: 35vh;
+    }
+    .App_Column {
+        margin: 0 10px;
+    }
 }
