@@ -1,38 +1,36 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0.25rem;
+  padding-bottom: 25vh;
+  background-image: url("https://www.itl.cat/pics/b/29/290770_background-hd-wallpapers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App_Column {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App_Column > .MuiFab-root,
+.App__label {
+  margin-top: 10px;
+  font-size: 25px;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 600px) {
+  .App {
+    padding: 0 10rem;
+    padding-bottom: 15vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App_Column {
+    margin: 0 10px;
   }
 }
