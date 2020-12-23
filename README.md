@@ -1,6 +1,6 @@
 # Live Demo
 
-## <a href="https://tinyurl.com/y9oxgnlr">LIVE DEMO</a>
+### <a href="https://tinyurl.com/y9oxgnlr">Demo Link</a>
 
 # How to copy
 
